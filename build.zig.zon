@@ -1,0 +1,16 @@
+.{
+    .name = "zig-rest-api",
+    .version = "0.1.0",
+    .dependencies = .{
+        .zap = .{
+            .url = "https://github.com/zigzap/zap/archive/refs/tags/v0.8.0.tar.gz",
+            .hash = "12209936c3333b53b53edfe3c8a403e16001ba69c30450b1ca3810a436b57b7e0617",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "README.md",
+    },
+}
